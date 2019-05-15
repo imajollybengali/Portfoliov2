@@ -1,0 +1,27 @@
+$(document).ready(function(){
+
+$("#thumbnail1").click(function(){
+  $("#thumbnail1").fadeTo('fast',.3);
+  $("#thumbnail2").fadeTo('fast',1);
+  $("#thumbnail3").fadeTo('fast',1);
+  $("#img1").fadeIn("slow");
+  $("#img2").hide();
+  $("#img3").hide();
+});
+$("#thumbnail2").click(function(){
+  $("#thumbnail2").fadeTo('fast',.3);
+  $("#thumbnail1").fadeTo('fast',1);
+  $("#thumbnail3").fadeTo('fast',1);
+  $("#img2").fadeIn('slow');
+  $("#img3").hide();
+  $("#img1").hide();
+});
+$("#thumbnail3").click(function(){
+  $("#thumbnail3").fadeTo('fast',.3);
+  $("#thumbnail1").fadeTo('fast',1);
+  $("#thumbnail2").fadeTo('fast',1);
+  $("#img3").fadeIn('slow');
+  $("#img2").hide();
+  $("#img1").hide();
+});
+});

@@ -1,0 +1,33 @@
+h1{
+  text-align: center;
+  font-family: helvetica;
+}
+li{
+  list-style: none;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: green;
+  font-size: 1.2em;
+}
+body{
+  background: linear-gradient(blue, white);
+}
+
+#box1 ,#box2 ,#box3, #box4, #box5{
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-left: 15%;
+  padding: 2em;
+  width: 15em;
+  height: 11em;
+  border: .2em solid black;
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border-radius: 20px;
+  color: white;
+  float: left;

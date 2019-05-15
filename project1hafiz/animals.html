@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/animals.css">
+
+    <title>Animals</title>
+  </head>
+  <body>
+<h1>Animals</h1>
+<p>Did you know that our planet has many different animals? Lets learn about ten animals today! </p>
+
+<table class="table table-hover table-sm">
+    <thead>
+      <tr>
+        <th>Animal Name</th>
+        <th>Picture</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Goat</td>
+        <td><img src="images/goat.jpeg" alt=""><audio src="audio/goat.mp3" controls></audio> </td>
+
+      </tr>
+      <tr>
+        <td>Eag-le</td>
+        <td><img src="images/eagle.jpeg" alt=""><audio src="audio/eagle.mp3" controls></audio> </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Deer</td>
+        <td><img src="images/deer.jpeg" alt=""><audio src="audio/deer.mp3" controls></audio> </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Tig-er</td>
+        <td><img src="images/tiger.jpeg" alt=""><audio src="audio/tiger.mp3" controls></audio> </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Lion</td>
+        <td><img src="images/lion.jpeg" alt=""><audio src="audio/lion.mp3" controls></audio> </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Zeb-ra</td>
+        <td><img src="images/zebra.jpeg" alt=""><audio src="audio/zebra.mp3" controls></audio> </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Ele-phant</td>
+        <td><img src="images/elephant.jpeg" alt=""><audio src="audio/elephant.mp3" controls></audio> </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Croc-o-dile</td>
+        <td><img src="images/crocodile.jpeg" alt=""><audio src="audio/crocodile.mp3" controls></audio> </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Cow</td>
+        <td><img src="images/cow.jpeg" alt=""><audio src="audio/cow.mp3" controls></audio> </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Wolf</td>
+        <td><img src="images/wolf.png" alt=""><audio src="audio/wolf.mp3" controls></audio> </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <nav class="navbar fixed-bottom navbar-dark bg-primary">
+    <a class="navbar-brand" href="index.html">Toddler Time!</a>
+    <a class="navbar-brand" href="#">Animals</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="colors.html">Colors</a>
+        <a class="nav-item nav-link" href="fruits.html">Fruits</a>
+        <a class="nav-item nav-link" href="animals.html">Animals</a>
+      </div>
+    </div>
+  </nav>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/up-arrow-key.png"  alt=""> </button>
+
+    <script>
+
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+      if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 10) {
+          document.getElementById("myBtn").style.display = "block";
+      } else {
+          document.getElementById("myBtn").style.display = "none";
+      }
+  }
+
+
+  function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+  }
+  </script>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>

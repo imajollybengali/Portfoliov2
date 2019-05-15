@@ -1,0 +1,56 @@
+body {
+  background-color: pink;
+  font-family: cursive;
+}
+ul {
+  list-style: none;
+  margin-left: auto;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  font-size: 1.2em;
+  color: green
+}
+li#nav {
+  display: inline;
+  margin-left: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+}
+
+ol li::before{
+  content: "\058e";
+}
+
+.container{
+  width: 900px;
+  padding: 10px;
+  margin: auto;
+  background-color: white;
+  border: solid .2em red;
+  border-radius: 2em 2em 2em 2em;
+  padding: 5px;
+  box-shadow: 1em 1em 1em yellow;
+}
+.content {
+  float: left;
+  width:440px;
+}
+.content2 {
+  float: right;
+  width: 440px;
+}
+.footer {
+  clear: both;
+  text-align: right;
+  padding-right: 1em;
+}

@@ -1,0 +1,23 @@
+h1{
+  text-align: center;
+}
+
+#one, #two, #three{
+background-color: black;
+color: white;
+cursor: pointer;
+padding: .1em;
+border-style: ridge;
+text-align: left;
+width: 50%;
+margin:auto;
+}
+
+#text1, #text2, #text3{
+  background-color: gray;
+  border-style: ridge;
+
+  display: none;
+  width: 50%;
+  margin:auto;
+}

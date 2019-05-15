@@ -1,0 +1,198 @@
+h1{
+  text-align: center;
+  }
+p{
+  margin-top: 4em;
+}
+
+  div.black img {
+      width: 100%;
+      height: auto;
+  }
+  div.blackcat {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+  div.blackcat img {
+      width: 100%;
+      height: auto;
+  }
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+
+  div.coloryellow{
+    margin-top: 2em;
+  }
+  div.yellow img {
+      width: 100%;
+      height: auto;
+  }
+  div.yellowsun {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+  div.yellowsun img {
+      width: 100%;
+      height: auto;
+  }
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  div.colorwhite{
+    margin-top: 2em;
+  }
+  div.white img {
+      width: 100%;
+      height: auto;
+  }
+  div.whiteangel {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+  div.whiteangel img {
+      width: 100%;
+      height: auto;
+  }
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  div.colorblue{
+    margin-top: 2em;
+  }
+  div.blue img {
+      width: 100%;
+      height: auto;
+  }
+  div.blueocean {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+  div.blueocean img {
+      width: 100%;
+      height: auto;
+  }
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  div.colorgreen{
+    margin-top: 2em;
+  }
+  div.green img {
+      width: 100%;
+      height: auto;
+  }
+  div.greengrass {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+  div.greengrass img {
+      width: 100%;
+      height: auto;
+  }
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  div.colorgray{
+    margin-top: 2em;
+  }
+  div.gray img {
+      width: 100%;
+      height: auto;
+  }
+  div.sadbear {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+  div.sadbear img {
+      width: 100%;
+      height: auto;
+  }
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  div.colororange{
+    margin-top: 2em;
+  }
+  div.orange img {
+      width: 100%;
+      height: auto;
+  }
+  div.orangeorange {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+  div.orangeorange img {
+      width: 100%;
+      height: auto;
+  }
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  div.colorpurple{
+    margin-top: 2em;
+  }
+  div.purple img {
+      width: 100%;
+      height: auto;
+  }
+  div.purplerock {
+      margin: 5px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 180px;
+  }
+  div.purplerock img {
+      width: 100%;
+      height: auto;
+  }
+  div.desc {
+      padding: 15px;
+      text-align: center;
+  }
+
+  #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 100px;
+      left: 5px;
+      z-index: 99;
+    
+
+      color: white;
+      cursor: pointer;
+
+
+  }
+
+  #myBtn:hover {
+      background-color: #555;
+  }

@@ -1,0 +1,9 @@
+#tab1, #tab2, #tab3{
+  background-color: gray;
+  border: 1px solid gray;
+}
+#text1, #text2, #text3{
+  background-color: gray;
+  border: 1px solid gray;
+  width: 100%;
+}

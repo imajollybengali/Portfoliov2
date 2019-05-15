@@ -1,0 +1,187 @@
+body {
+  background-color: pink;
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  font-size: 1.2em;
+  color: green;
+}
+
+#container{
+  margin: auto;
+  width: 900px;
+  background-color: white;
+  border: solid .2em red;
+  border-radius: 2em 2em 2em 2em;
+  padding: 5px;
+  box-shadow: 1em 1em 1em yellow;
+}
+
+ span{
+  display: inline-block;
+color: green;
+font-size: 3em;
+font-family: cursive;
+font-weight: bolder;
+}
+span:nth-child(1)
+{
+  animation: flipUp 3s
+}
+span:nth-child(2)
+{
+  animation: flipUp 2s
+}
+span:nth-child(3)
+{
+  animation: flipUp 3s
+}
+span:nth-child(4)
+{
+  animation: flipUp 2s
+}
+span:nth-child(5)
+{
+  animation: flipUp 3s
+}
+span:nth-child(6)
+{
+  animation: flipUp 2s
+}
+span:nth-child(7)
+{
+  animation: flipUp 3s
+}
+span:nth-child(8)
+{
+  animation: flipUp 2s
+}
+span:nth-child(9)
+{
+  animation: flipUp 3s
+}
+span:nth-child(10)
+{
+  animation: flipUp 2s
+}
+span:nth-child(11)
+{
+  animation: flipUp 3s
+}
+span:nth-child(12)
+{
+  animation: flipUp 2s
+}
+span:nth-child(13)
+{
+  animation: flipUp 3s
+}
+span:nth-child(14)
+{
+  animation: flipUp 2s
+}
+span:nth-child(15)
+{
+  animation: flipUp 3s
+}
+span:nth-child(16)
+{
+  animation: flipUp 2s
+}
+span:nth-child(17)
+{
+  animation: flipUp 3s
+}
+span:nth-child(18)
+{
+  animation: flipUp 2s
+}
+span:nth-child(19)
+{
+  animation: flipUp 3s
+}
+span:nth-child(20)
+{
+  animation: flipUp 2s
+}
+span:nth-child(21)
+{
+  animation: flipUp 3s
+}
+span:nth-child(2n){
+  color: yellow;
+    animation: flipUp 0.5s alternate
+}
+@keyframes flipUp {
+  from{transform: rotateX(100deg);}
+  to{transform: rotateX(0deg);}
+}
+
+#header {
+text-align: center;
+}
+#content{
+  padding: 10px
+}
+#nav {
+  float: left;
+  width: 230px;
+}
+#nav ul {
+  list-style: none;
+}
+
+#main {
+  width: 650px;
+  float: right;
+}
+#image1 {
+  float: left;
+}
+#image2 {
+  float: right;
+}
+
+#footer {
+  clear: both;
+  text-align: right;
+  color: lightgrey;
+  padding-right: 1em;
+}
+li{
+  margin-bottom: 1em;
+  background-color: yellow;
+  height: 3em;
+  width: 90%;
+  padding-top: 0.5em;
+  text-align: center;
+}
+li:hover{
+  box-shadow: .5em .5em .5em pink;
+  background-color: pink;
+}
+
+.overlay1{
+  position: absolute;
+  width: 560px;
+  height: 380px;
+  text-align: center;
+  color: white;
+  font-size: 4em;
+  padding-top: 2em;
+
+  background-color: red;
+  transform: scale(0);
+  transition: 3s ease;
+  box-sizing: border-box;
+  
+}
+.container2:hover .overlay1{
+  transform: scale(1);
+  opacity: .5
+}
