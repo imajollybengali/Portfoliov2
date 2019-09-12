@@ -155,7 +155,8 @@ input, select, textarea {
 	}
 
 	strong, b {
-		font-weight: 300;
+		font-weight: 700;
+		font-size: 2em;
 		color: #666;
 	}
 
@@ -166,7 +167,7 @@ input, select, textarea {
 	a {
 		text-decoration: none;
 		color: inherit;
-		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
+		
 		-moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -175,7 +176,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #E27689;
+			color: yellow;
 			border-bottom-color: rgba(255, 255, 255, 0);
 		}
 
@@ -1755,14 +1756,14 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 70px;
+			height: 70px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 70px;
+				height: 70px;
 			}
 
 		.image.fit {
